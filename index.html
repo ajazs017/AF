@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajaz's Fitness </title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('images/gym.jpg');
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+
+
+
+        }
+
+        .left div {
+            line-height: 31px;
+            font-size: 24px;
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+            margin: 8px;
+        }
+
+        .name {
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 32%;
+            margin: 8px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+            padding: 25px 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            font: 30px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(250, 241, 255);
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 24px;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            border: 2px solid gray;
+            margin: 0px 15px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background: gray;
+        }
+
+        .container {
+            width: 30%;
+            border: 2px solid red;
+            margin: 123px 64px;
+            padding: 29px 14px;
+            border-radius: 10px;
+            color: white;
+            border-color: whitesmoke;
+
+
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai 2', cursive;
+            text-align: center;
+            border: 2px solid black;
+            margin: 16px auto;
+            display: block;
+            padding: 6px;
+            border-radius: 10px;
+            font-size: 13px;
+            width: 262px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 62%;
+            margin: auto;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="./images/dumbell.png" alt="">
+            <div class="name">Ajaz Fitness</div>
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <li><a href="#" class="active">Home</a></l>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Area">
+            </div>
+            </form-action>
+            <button class="btn">Submit</button>
+    </div>
+
+
+</body>
+
+</html>
